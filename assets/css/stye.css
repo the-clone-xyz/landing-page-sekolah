@@ -1,0 +1,26 @@
+#mading {
+    background-image: url("../img/bg-kepsek.jpeg");
+    background-size: 100% 100%;
+    background-image: no-repeat;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+#galeri_foto:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+#galeri_foto {
+    transition: 0.1s ease-in;
+}
+
+.img-prestasi:hover {
+    transform: rotateX(10deg) rotateY(10deg) scale(1.05);
+    cursor: pointer;
+}
+.img-prestasi {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
